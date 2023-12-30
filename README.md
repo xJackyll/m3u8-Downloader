@@ -45,8 +45,5 @@ pip install requests m3u8
 
 This script is provided for educational and personal use only. Ensure that you have the right to download and store the video content before using this script. The developers are not responsible for any misuse of this script.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 Feel free to contribute, report issues, or suggest improvements!
