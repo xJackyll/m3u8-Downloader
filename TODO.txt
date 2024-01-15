@@ -24,3 +24,4 @@ try catch ✅
 fix the desired capabilities issue ✅
 improve the script with a file with the previus raiplay links (maybe with the name of the video?)
 improve the script (add the option of choosing audios because if more than one the video have not audio, maybe remove the m3u8 module and do a regex on my own?)
+fix readme file
