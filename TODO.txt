@@ -21,8 +21,13 @@ try catch
 https://streamcdnr20-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom7/podcastcdn/teche_root/PLAYRAI_TECHE_CINEMA_HD/11587667_,1200,1800,2400,.mp4.csmil/playlist.m3u8?auth=daEcQaidHbwdDaHapdid0aBcUc2cVcddJcm-bLJ3ae-c0-CjzxuFp&aifp=V001
 
 
-fix the headless thing 
-fix the Downloader file because have sensitive path in it. 
+fix the headless thing ✅
+fix the Downloader file because have sensitive path in it. ✅
+check of the url site ✅
+devo fare un check che il sito url sia raiplay? ✅
+try catch ✅
+fix the desired capabilities issue
 improve the script with a file with the previus raiplay links
-check of the url site 
+
+
 
