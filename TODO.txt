@@ -1,0 +1,28 @@
+Cose da fare
+
+cosa abbiamo
+.m3u8 che funziona sui livestream site più famosi
+
+set our goal
+
+full
+voglio fare uno script che dandogli l'url del video ti chiede la risoluzione e ti scarica il video
+
+intermedio 
+script che dal file m3u8 master (che è il file che ha tutti gli altri m3u8 con tutte le varie risoluzioni o solo audiodescrizione o audio)
+scarica i chunk secondo il file e lo ricompone ad un video unico
+
+
+
+aggiungo una conta dei segments e con quella faccio una percentuale di progresso.
+
+try catch
+
+https://streamcdnr20-b70cb04c54ab478189e9d8ee45637b13.msvdn.net/dom7/podcastcdn/teche_root/PLAYRAI_TECHE_CINEMA_HD/11587667_,1200,1800,2400,.mp4.csmil/playlist.m3u8?auth=daEcQaidHbwdDaHapdid0aBcUc2cVcddJcm-bLJ3ae-c0-CjzxuFp&aifp=V001
+
+
+fix the headless thing 
+fix the Downloader file because have sensitive path in it. 
+improve the script with a file with the previus raiplay links
+check of the url site 
+
