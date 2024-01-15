@@ -28,13 +28,13 @@ def find_master_m3u8_link(url, xpath):
         capa['goog:loggingPrefs'] = {'performance': 'ALL'}
         options = webdriver.ChromeOptions()
         options.add_argument("user-data-dir=" + ChromeUser_Dir)
-        #options.add_argument('--headless=new')
+        options.add_argument('--headless=new')
+        options.add_argument(f'user-agent={user_agent}')
         driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), desired_capabilities=capa, options=options)
 
         # Getting the url of the stream
         driver.get(url)
-        # We wait until the stream is ready
-        WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, xpath))).click()
+        WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.XPATH, XPATH)))
         perf = driver.get_log('performance')
 
         # The first pattern we search for is 'playlist.m3u8'
