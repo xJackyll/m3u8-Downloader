@@ -22,13 +22,13 @@ pip install requests m3u8 selenium webdriver-manager moviepy
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/raiplay-downloader.git
+   git clone https://github.com/your-username/m3u8-Downloader.git
    ```
 
 2. Change into the project directory:
 
    ```bash
-   cd raiplay-downloader
+   cd m3u8-Downloader-main
    ```
 
 3. Run the script:
